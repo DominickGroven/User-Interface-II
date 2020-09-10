@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Photos/Background-img.jpg);
+    background-size: cover;
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width:100%;
+    padding:12px;
+    border:1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    resize: vertical;
+}
+
+input[type=submit]{
+    background-color: #dbe91b;
+    color:black;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+input[type=submit]:hover{
+    background-color: #00f7ca;
+}
+.container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border:1px solid grey;
+}
