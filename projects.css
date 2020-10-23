@@ -1,0 +1,39 @@
+body{
+    font-family: 'Shadows Into Light', cursive;
+    background-image: url(Photos/Background-img.jpg);
+    background-size: cover;
+}
+img{
+    height:300px;
+    width: 300px;
+}
+.header{
+    padding: 60px;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+  
+  }
+h1{
+    margin-bottom: 30px;
+    font-size: 55px;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+}
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    padding: 15px;
+  
+    
+}
+
+
+    
+ 
+ 
+ .projects p{
+     font-size: 25px;
+ }
